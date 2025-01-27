@@ -1,0 +1,64 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, aquamarine, black, #2e8b57);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    backdrop-filter: blur(10px);
+    border: 2px solid white;
+  }
+  input {
+    padding: 15px;
+    width: 80%;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.095);
+    color: white;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.603);
+  }
+  button {
+    padding: 15px 30px;
+    background: linear-gradient(90deg, rgb(42, 5, 45), #0e7139);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.415);
+  }
+  button:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.777);
+  }
+  .weather-info {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  .error {
+    color: #ff4b5c;
+  }
+  p {
+    font-family: cursive;
+  }
+  .weather {
+    justify-content: left;
+  }
+  h2 {
+    font-style: italic;
+  }
