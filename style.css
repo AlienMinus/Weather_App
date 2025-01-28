@@ -54,7 +54,7 @@ body {
     color: #ff4b5c;
   }
   p {
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .weather {
     justify-content: left;

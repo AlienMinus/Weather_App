@@ -22,11 +22,11 @@ async function getWeather() {
     document.getElementById("weather-info").innerHTML = `
                 <div class="weather">
                 <h2>${data.location.name}, ${data.location.country}.</h2>
-                <p>🌡 Temperature: ${data.current.temperature} &#8451;  ||
+                <p>🌡 Temperature: ${data.current.temperature} &#8451;  <br/>
                 🏞️Weather: ${data.current.weather_descriptions[0]} <br/>
-                💧Humidity: ${data.current.humidity}% ||
+                💧Humidity: ${data.current.humidity}% <br/>
                 💨Wind Speed: ${data.current.wind_speed} km/h <br/>
-                🌡Pressure: ${data.current.pressure} hPa ||
+                🌡Pressure: ${data.current.pressure} hPa <br/>
                 👁️Visibility: ${data.current.visibility} km</p>
                 </div>
             `;
